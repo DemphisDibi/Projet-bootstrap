@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="https://use.typekit.net/eer2hih.css">
     <!-- Feuille perso CSS -->
     <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/Acceuil.css">
     <link rel="icon" type="image/png" href="/assets/css/img/Logo_Don_pariggi.png" />
     <title>Pizzeria Don Pariggi - Pizza italienne authantique au feu de bois à emporter ou en livraison</title>
 </head>
 <body>
     <header>
     </header>
-    <nav class="navbar navbar-expand-md navbar-light dp-navbar">
+    <nav class="navbar navbar-expand-md navbar-light dp-navbar sticky-top">
         <!-- Notre Carte et Notre Histoire -->
         <div class="collapse navbar-collapse">
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="#">Notre Carte</a>
-                <a class="nav-link" aria-current="page" href="#">Notre histoire</a>
+                <a class="nav-link" aria-current="page" href="#histoire">Notre histoire</a>
             </div>
         </div>
         <!-- Logo + Menu hamburger -->
@@ -39,7 +40,7 @@
                 <!-- Lien telephone direct -->
                 <a class="nav-link" aria-current="page" href="tel:+33711223344">Commander</a>
                 <!-- Lien livraison -->
-                <a class="nav-link" aria-current="page" href="#">Livraison</a>
+                <a class="nav-link" aria-current="page" href="#livraison">Livraison</a>
             </div>
         </div>
         <!-- Nos réseaux -->
@@ -53,9 +54,77 @@
         </div>
     </nav>
     <main>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid non asperiores deleniti quia mollitia harum nihil sunt vero aperiam porro ullam atque sed dolorum iste sapiente optio minus quidem, quo nisi aliquam facilis. Delectus dignissimos laudantium, quasi ratione quia libero odio, veniam placeat nam deleniti eaque, rem laboriosam tenetur animi ipsa aspernatur eum? Delectus facere distinctio quaerat deleniti ratione possimus eligendi velit iste eius obcaecati quis numquam itaque ea laudantium, autem ducimus enim ipsam voluptates magnam voluptatum quibusdam. Velit ipsa voluptates enim alias consequuntur suscipit consequatur voluptatem est vitae facilis nesciunt explicabo sunt autem blanditiis minima aut atque molestias, odit officia adipisci eius? Veniam cum a minus. Temporibus obcaecati aperiam impedit error dolores molestiae? Cupiditate unde, accusantium voluptates repudiandae asperiores error enim consequuntur molestiae molestias officiis eum numquam inventore magni incidunt? Consequuntur reiciendis possimus ullam id, culpa placeat aliquam labore voluptatem odit dolorum ut amet nulla tempore incidunt eligendi voluptates assumenda quam porro officia eum quaerat esse sint! Repudiandae doloribus eaque molestias aperiam error! Inventore aliquam pariatur error debitis praesentium maiores, aperiam facilis adipisci suscipit nihil qui, voluptatem aliquid nulla perspiciatis dolorum ut fugiat iusto ipsam ducimus! Doloremque eos tenetur maiores, nisi similique voluptatem aliquid reiciendis asperiores minus recusandae?</div>
+        <div class="container">
+            <!-- Carroussel -->
+            <div class="row" id="carousel">
+                <div class="col">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner hauteurCarousel">
+                            <div class="carousel-item active">
+                                <img src="/assets/img/Pizza1.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/Pizza2.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/Pizza3.jpg" class="d-block w-100 img-fluid" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Précédent</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Suivant</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Bienvenuti -->
+            <div class="row m-5" id="bienvenuti">
+                <div class="col12 col-md-4 text-center">
+                    <img src="/assets/img/ciaopizza-min.png" class="img-fluid" alt="">
+                </div>
+                <div class="col12 col-md-8 text-center p-5">
+                    <div class="titreBienvenuti h2"><h2>Benvenuti chez Don Pariggi</h2></div>
+                    <div class="textBienvenuti d-flex flex-column">
+                        <p>Notre pizzeria est issue de la passion pour la pizza napolitaine.</p> 
+                        <p>Notre pâte est constituée uniquement d'eau, farine, levure fraîche et sel marin. Elle est lentement maturée pendant 48h pour développer ses arômes et une haute digestibilité.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section Livraison -->
+            <div class="row text-center p-5" id="livraison">
+                <div class="col" id="aemporter">
+                    <div class="h2"><h2>A Emporter</h2></div>
+                    <div class="livraisonMilieu h4">Retrait directement <br>à proximité du four</div>
+                    <div class="livraisonFin h3">de 17h à 22h <br> Tous les jours</div>
+                </div>
+                <div class="col"id="enlivraison">
+                    <div class="h2"><h2>En livraison</h2></div>
+                    <div class="livraisonFin h4">Livraison dans les villes de : <br>Toulon, La Valette, La garde</div>
+                    <div class="livraisonFin h3">Uniquement le Jeudi, Vendredi, Samedi et Dimanche</div>
+                </div>
+            </div>
+            <!-- Section Notre Histoire -->
+            <div class="row m-5" id="histoire">
+                <div class="col text-center">
+                    <div class="h2"><h2>Qui sommes-nous ?</h2></div>
+                    <div class="textHistoire">Sicilien de naissance, Gaetano arrive clandestinement en France après la guerre, il travaille dans les mines à Gardanne pendant quelques années. En 1954 il décide de s’installer à Toulon et d’ouvrir avec son épouse Rosalia la première Pizzeria de la ville et de ces alentours. Le succès est immédiat et il fait venir sa mère et ses 6 frères de Serra di Falco son village natal pour l’aider à la tâche.</div>
+                </div>
+                <div class="col">
+                    <img src="/assets/img/pizzeria.jpg" class="img-fluid imagePizzeria" alt="">
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="container-fluid align-items-center justify-center">
+    <footer class="container-fluid align-items-center justify-center p-4">
         <div class="row text-center">
             <!-- Logo -->
             <div class="col12 col-lg-3 text-center">

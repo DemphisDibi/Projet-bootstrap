@@ -4,6 +4,11 @@
 }
 html { 
     font-family: 'Active';
+    color: #fff;
+}
+/* Font page */
+body { 
+    background: linear-gradient(#226f54, #9cfaa9);
 }
 
 /* NavBar */
