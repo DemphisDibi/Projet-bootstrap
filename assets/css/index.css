@@ -13,8 +13,11 @@ html {
     font-family: 'Active';
 }
 .dp-logoNavBar { 
-    height : 30px;
+    height : 40px;
 }
-.nav-link, .button { 
+.nav-link { 
     color: #ffffff !important;
+}
+.UberEats img { 
+    max-height: 25px;
 }

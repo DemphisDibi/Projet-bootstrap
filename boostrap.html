@@ -18,14 +18,14 @@
     </header>
     <nav class="navbar navbar-expand-md navbar-light dp-navbar">
         <!-- Notre Carte et Notre Histoire -->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse">
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="#">Notre Carte</a>
                 <a class="nav-link" aria-current="page" href="#">Notre histoire</a>
             </div>
         </div>
         <!-- Logo + Menu hamburger -->
-        <div class="navbar-nav container-fluid">
+        <div class="navbar-nav container-fluid flex-row">
             <a class="navbar-brand" href="#">
                 <img src="/assets/img/Logo_Don_pariggi_Blanc.png" class="rounded mx-auto d-block dp-logoNavBar" alt="">
             </a>
@@ -38,15 +38,17 @@
             <div class="navbar-nav">
                 <!-- Lien telephone direct -->
                 <a class="nav-link" aria-current="page" href="tel:+33711223344">Commander</a>
+                <!-- Lien livraison -->
                 <a class="nav-link" aria-current="page" href="#">Livraison</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nos réseaux</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
+            </div>
+        </div>
+        <!-- Nos réseaux -->
+        <div class="collapse navbar-collapse" >
+            <div class="navbar-nav">
+                <li><a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="nav-link" href="#"><img class="img-responsive" src="/assets/img/tripadvisor-logotype.png"></a></li>
+                <li><a class="nav-link UberEats" href="#"><img class="img-responsive" src="/assets/img/uber.png"></a></li>
             </div>
         </div>
     </nav>
