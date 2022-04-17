@@ -4,6 +4,9 @@
 }
 
 /* Bienvenuti */
+#bienvenuti {
+    color: #fff;
+}
 h2 {
     font-family: 'Active';
 }
@@ -29,6 +32,6 @@ h2 {
 .textHistoire { 
     font-family: 'Poppins';
 }
-.imagePizzeria {
+/* .imagePizzeria {
     max-height : 400px;
-}
+} */
