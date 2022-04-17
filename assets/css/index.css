@@ -21,3 +21,16 @@ html {
 .UberEats img { 
     max-height: 25px;
 }
+
+/* Footer */
+footer {
+    background-color: #226f54;
+    color: #ffffff;
+}
+.logoFooter { 
+    max-height: 100px;
+}
+.textFooter { 
+    font-family: 'Poppins';
+    color: #ffffff;
+}
