@@ -1,4 +1,7 @@
 /* Carousel */
+.dp-carousel {
+    margin-top: 9vh;
+}
 .hauteurCarousel { 
     max-height: 350px;
 }
