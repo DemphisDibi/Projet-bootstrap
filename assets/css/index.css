@@ -7,25 +7,28 @@ html {
     color: #fff;
 }
 /* Font page */
-/* body { 
+body { 
     background: linear-gradient(#226f54, #9cfaa9);
-} */
+}
 
 /* NavBar */
 .dp-navbar{
     background-color: #226f54;
     color: #ffffff;
     font-family: 'Active';
-
 }
 .dp-logoNavBar { 
-    height : 90px;
+    height : 60px;
 }
 .nav-link { 
     color: #ffffff !important;
+    font-size: 2rem;
 }
-.UberEats img { 
-    max-height: 25px;
+.dp-navReseauxWeb { 
+    width: 15%;
+}
+.dp-navAutres { 
+    width: 95%;
 }
 
 /* Footer */
@@ -34,7 +37,7 @@ footer {
     color: #ffffff;
 }
 .logoFooter { 
-    max-height: 100px;
+    max-width: 50%;
 }
 .textFooter { 
     font-family: 'Poppins';
@@ -44,3 +47,4 @@ footer {
     text-decoration: none;
     color: #ffffff;
 }
+
