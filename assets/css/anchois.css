@@ -1,0 +1,18 @@
+/* Container font */
+.dp-container {
+    font-family: 'Active';
+    color: #fff;
+    /* margin-top: 5rem; */
+    margin-bottom: 2rem;
+}
+
+/* Image pizza */
+.dp-imagePizza {
+    height: 50vh;
+    border-radius: 2rem;
+}
+
+/* Description Pizza */
+.descrptionPizza, .boutonAllergenes {
+    font-family: 'Poppins';
+}
