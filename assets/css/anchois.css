@@ -2,8 +2,13 @@
 .dp-container {
     font-family: 'Active';
     color: #fff;
-    /* margin-top: 5rem; */
+    /* margin-top: 15vh; */
     margin-bottom: 2rem;
+}
+
+/* Produits frais */
+.dp-produitFrais {
+    margin-top : 15vh;
 }
 
 /* Image pizza */
