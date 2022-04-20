@@ -1,1 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html { 
+    font-family: 'Active';
+    color: #fff;
+}
+/* Font page */
+body { 
+    background: linear-gradient(#226f54, #9cfaa9);
+}
+
+/* NavBar */
+.dp-navbar{
+    background-color: #226f54;
+    color: #ffffff;
+    font-family: 'Active';
+}
+.dp-logoNavBar { 
+    height : 4rem;
+}
+.nav-link { 
+    color: #ffffff !important;
+    font-size: 2rem;
+}
+.dp-navReseauxWeb { 
+    width: 15%;
+}
+.dp-navAutres { 
+    width: 95%;
+}
+
+/* Footer */
+footer {
+    background-color: #226f54;
+    color: #ffffff;
+}
+.logoFooter { 
+    max-width: 50%;
+}
+.textFooter { 
+    font-family: 'Poppins';
+    color: #ffffff;
+}
+.lienTel { 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dp-boissons { 
+    background-color: #da2c38;
+    border-radius: 3rem;
+    font-family: 'Poppins';
+}
+.dp-titreBoissons { 
+    font-family: 'Active'
+}
+.imgPizza {
+    height: 300px;
+    width: 300px;
+}
+
+
 

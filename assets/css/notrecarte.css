@@ -1,0 +1,23 @@
+body{
+    color: #FFFFFF;
+}
+
+h1,h3{
+    font-family: 'Active';
+    color: #FFFFFF;
+
+}
+
+main{
+    margin-top: 9vh;
+}
+
+.dp-img{
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+.bg-dark{
+    
+}
+
