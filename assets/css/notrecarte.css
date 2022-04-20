@@ -1,5 +1,5 @@
 body{
-    color: #FFFFFF;
+    background: linear-gradient(#226f54, #9cfaa9);
 }
 
 h1,h3{
@@ -17,7 +17,8 @@ main{
     max-height: 25vh;
 }
 
-.bg-dark{
-    
-}
-
+.objectFitCover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    }
